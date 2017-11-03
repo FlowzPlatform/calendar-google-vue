@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.calendarClass * {font-family: "Open Sans",sans-serif !important;font-weight: normal;}
+.calendarClass {position: relative;}
+.calendarClass .fc-left {float: none ; position: absolute; right: 200px; }
+.calendarClass .fc-center {float: left; margin-left: 15px;}
+.calendarClass .fc-toolbar button {background: transparent;border: 0;box-shadow: none;text-transform: capitalize;border-radius: 0;text-shadow: none;outline:none;margin: 0;border-bottom: solid 2px transparent;}
+.calendarClass .fc-toolbar button:hover,
+.calendarClass .fc-toolbar button.fc-state-active {border-bottom: 2px solid #36c6d3}
+.calendarClass .fc-toolbar button .fc-icon:after {font-weight: normal;top: -5px;}
+.calendarClass .fc-day-header {background-image: none;filter: none;background-color: #eee;text-transform: uppercase;font-weight: 300;}
+.calendarClass .fc-center h2 {margin-top: 3px;font-size: 17px;}
+.calendarClass .fc-event {background-color: #F3565D;border-color: #f3565D;border-radius: 0;padding: 2px 4px;}
+.calendarClass .fc-header-toolbar {border-bottom: solid 1px #ccc;}
+
+.modal-min.opens {display:block}
+.modal-min {position: fixed;background-color: rgba(0,0,0,0.5);top: 0;left: 0;bottom: 0;right: 0;z-index: 11;display: none;}
+.modal-cont {background-color: #fff;min-height: 10px;width: 100%;max-width: 500px;margin: 6% auto;padding: 10px;border-radius: 5px;}
+.modal-und {position: relative;padding: 20px;}
+.modal-but-close {    position: absolute;top: -25px;right: -25px;background-color: #fff;box-shadow: 0 0 11px rgba(0,0,0,0.25);height: 40px;width: 40px;text-align: center;line-height: 31px;font-size: 33px;border-radius: 20px;cursor: pointer;}
+.add-text-inp {  width: 100%;border: 0;box-shadow: 0 0 11px rgba(0,0,0,0.25);line-height: 45px;outline: none;border-radius: 10px;padding: 0 5px;}
+.modal-but-bot { padding: 10px  10px 0 10px;text-align: center; margin-top: 35px;}
+.mod-bot-butn {border: 0;background-color: #36c6d3;color: #fff;text-transform: capitalize;min-width: 100px;padding: 5px;display: inline-block;cursor: pointer;border-radius: 5px;}
+.modal-show-date {
+    float: left;
+    margin-top: 10px;
+}
+
+.modal-del.opens {display:block}
+.modal-del {position: fixed;background-color: rgba(0,0,0,0.5);top: 0;left: 0;bottom: 0;right: 0;z-index: 11;display: none;}
+.modal-but-del { padding: 10px  0 0 10px;text-align: center; margin-top: 35px; text-align: right;}
